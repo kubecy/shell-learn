@@ -15,7 +15,7 @@ print_warn() {
 NowPwd=$(pwd)
 if [ ! -e "$NowPwd/LinuxCheckLog" ]; then
     mkdir "${NowPwd}/LinuxCheckLog"
-fi  # 修复了这里的 if 语句
+fi
 
 LogDIR="${NowPwd}/LinuxCheckLog"
 BakFile="${LogDIR}/sysinfo.$(date +%Y%m%d%H%M)"
