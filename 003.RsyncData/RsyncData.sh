@@ -26,11 +26,11 @@ Subpath=$(realpath "$1")
 
 ## 目标主机
 HOSTS=(
-    "LC-ZFZX-SJES01"
-    "LC-ZFZX-SJES02"
-    "LC-ZFZX-SJES03"
-    "LC-ZFZX-SJES04"
-    "LC-ZFZX-SJES05"
+    "HOST01"
+    "HOST02"
+    "HOST03"
+    "HOST04"
+    "HOST05"
 )
 
 for HOST in "${HOSTS[@]}"
